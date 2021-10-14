@@ -37,7 +37,6 @@ pipeline {
       steps {
 	docker pull nexus:8123/mywebapp2
 	docker run -d mywebapp2
-
       }
     }
   }
