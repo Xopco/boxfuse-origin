@@ -2,7 +2,7 @@ pipeline {
   agent {
 
     docker {
-      image 'nexus:8123/mywebapp2/jenkins-agent'
+      image 'nexus:8123/jenkins-agent'
     }
   }
 
