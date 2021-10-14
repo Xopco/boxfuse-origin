@@ -1,4 +1,4 @@
-FROM jre8-openjdk
+FROM tomcat:jre8-openjdk
 
 RUN apt-get update
 RUN apt-get -y install maven
