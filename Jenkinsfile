@@ -2,9 +2,7 @@ pipeline {
   agent {
 
     docker {
-      image 'devcvs-srv01:5000/shop2-backend/jenkins-agent'
-  tools {
-    maven "m3"
+      image 'nexus:8123/mywebapp2/jenkins-agent'
     }
   }
 
